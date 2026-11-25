@@ -25,7 +25,7 @@
 
 - 手机已 root（KernelSU、Magisk 都行）
 - 已安装 [LSPosed](https://github.com/LSPosed/LSPosed)
-- 「慧生活798」版本 **3.1.10**，其他版本没测过，可能部分失效
+- 「慧生活798」版本 **3.1.10**；应用更新后广告入口的类名可能变化，需要重新适配
 
 ## 安装
 
@@ -41,7 +41,6 @@
 
 - 框架：LSPosed 2.2.1，libxposed 现代 API 102（`io.github.libxposed.api`）
 - 模块 `minSdk 24` / `targetSdk 35`
-- 目标应用只在 **慧生活798 3.1.10** 上实测过；应用更新后广告入口的类名可能变化，需要重新适配
 - 作用域只有 `com.cloudora.android`，模块代码不在其他进程加载；不联网、不上报、不改登录状态和数据
 
 ## 常见问题
